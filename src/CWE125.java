@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class OutOfBoundsRead {
+public class CWE125 {
+    //out of bounds read
     final  int arr[]={-1,2,-3,4,-5};
-    public static void main(String args[]){
+    public static void main(String args[]) throws Exception{
         Scanner sc= new Scanner(System.in);
-        OutOfBoundsRead obj=new OutOfBoundsRead();
+        CWE125 obj=new CWE125();
         boolean read=true;
         while(read){
             System.out.println("Enter index to read:");

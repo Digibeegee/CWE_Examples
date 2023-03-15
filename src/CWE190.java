@@ -1,6 +1,9 @@
-public class IntegerOverflowWrap {
+public class CWE190 {
     public static void main(String args[]){
-        IntegerOverflowWrap obj= new IntegerOverflowWrap();
+
+        //Integer Overflow or Wraparound
+
+        CWE190 obj= new CWE190();
         int a=90;
         System.out.println(obj.increment(a));
         System.out.println(obj.increment(Integer.MAX_VALUE));

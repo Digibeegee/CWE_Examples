@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-public class ImproperInputValidation {
+public class CWE20 {
+
+    //Improper Input Validation
+
     final static int MAX_SIZE=100;
     public static void main(String[] args){
         int width,height;

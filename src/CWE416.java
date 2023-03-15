@@ -1,9 +1,9 @@
-public class UseFree {
+public class CWE416 {
             // Use After Free
 
         public static void main(String[] args) {
 
-            UseFree obj = new UseFree();
+           CWE416 obj = new CWE416();
             obj.msg();
             obj = null;
             System.gc();
