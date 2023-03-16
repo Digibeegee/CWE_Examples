@@ -1,3 +1,5 @@
+package CWE798;
+
 public class CWE798 {
 
     ////Hardcoded Credentials

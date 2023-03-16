@@ -1,3 +1,5 @@
+package CWE125;
+
 import java.util.Scanner;
 
 public class CWE125 {

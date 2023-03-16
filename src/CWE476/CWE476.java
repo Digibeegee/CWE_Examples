@@ -1,4 +1,4 @@
-
+package CWE476;
 
 public class CWE476 {
     public static void main(String args[]){

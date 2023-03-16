@@ -1,3 +1,5 @@
+package CWE787;
+
 public class CWE787 {
     public static void main(String args[]){
 

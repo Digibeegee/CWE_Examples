@@ -1,3 +1,5 @@
+package CWE416;
+
 public class CWE416 {
 
             // Use After Free
