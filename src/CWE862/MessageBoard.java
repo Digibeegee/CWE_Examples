@@ -9,9 +9,11 @@ public class MessageBoard {
      public void post(String message,String name){
          System.out.println(message+"\n:"+name);
      }
+
      public void read(){
          System.out.println("Reading messages from bulletin.......");
      }
+
      public static void main(String args[]){
          User user1= new User("Prerona","pwd123", Arrays.asList("read"));
          if (user1.username.equals(user1.getUsername())&& user1.password.equals(user1.getPassword())){
