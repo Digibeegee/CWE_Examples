@@ -6,8 +6,8 @@ public class MessageBoard {
 
     //Improper Authorization
 
-     public void post(String message){
-         System.out.println(message);
+     public void post(String message,String name){
+         System.out.println(message+"\n:"+name);
      }
      public void read(){
          System.out.println("Reading messages from bulletin.......");
@@ -21,7 +21,7 @@ public class MessageBoard {
 
              MessageBoard obj= new MessageBoard();
              obj.read();
-             obj.post("Attacker can exploit this weakness");
+             obj.post("Attacker can exploit this weakness", user1.username);
          }
      }
 }
