@@ -15,6 +15,9 @@ public class CompliantTwitter {
             attempt+=1;
             password=sc.nextLine();
         }
-        System.out.println("Account has been locked!");
+        if(attempt>max_attempts)
+            System.out.println("Account has been locked!");
+        else
+            System.out.println("Welcome "+admin.username);
     }
 }
